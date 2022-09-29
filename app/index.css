@@ -1,0 +1,293 @@
+html, body, #app {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 3rem 3rem 1rem;
+}
+
+.dark {
+    color: #DADADA;
+    background: #1c2022;
+    min-height: 100%;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-clear {
+    border: none;
+    background: transparent;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav li {
+    margin-right: 1.5rem;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.popular-card {
+    margin-left: 0.1rem;
+    width: 24.5%;
+}
+
+.grid > .card {
+    width: 25%;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.header-lg {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin: 1.5rem;
+}
+
+.header-sm {
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0.8rem
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 0.3rem;
+    margin: 0 auto;
+    display: block;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.link {
+    color: rgb(187, 46, 31);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card-list {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.card-list li {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    margin: 0.3rem 0.75rem;
+}
+
+.card-list svg {
+    margin-right: 0.5rem;
+}
+
+.card-list a {
+    font-weight: 500;
+    color: inherit;
+}
+
+.bg-light {
+    background: rgba(0, 0, 0, 0.08);
+    border-radius: 0.1rem;
+}
+
+.bg-dark {
+    background: rgb(36, 40, 42);
+    border-radius: 3px;
+}
+
+.card {
+    margin: 0.65rem 0;
+    padding: 0.4rem 2rem 2rem;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.card img {
+    margin-bottom: 0.5rem;
+}
+
+.instructions-container {
+    margin: 5% 0;
+}
+
+.container-sm {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.battle-instructions {
+    padding: 0;
+    font-size: 2rem;
+}
+
+.battle-instructions li {
+    flex: 1;
+    flex-basis: 30%;
+    box-sizing: border-box;
+    min-width: 25%
+}
+
+.battle-instructions svg {
+    padding: 3rem;
+    border-radius: 0.1rem;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-nav {
+    display: flex;
+}
+
+.player {
+    flex: 1;
+    margin: 0 1.5rem;
+    padding: 1rem;
+}
+
+.player-label {
+    font-size: 1.2rem;
+    margin: 0.8rem 0;
+    font-weight: 400;
+}
+
+.player-inputs input {
+    padding: 0 0.7rem;
+    font-size: 1.2rem;
+    flex: 2;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.player-inputs .input-light {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.player-inputs .input-dark {
+    color: #DADADA;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.player-inputs button {
+    flex: 1;
+    margin-left: 1rem;
+}
+
+.player-inputs .input-dark {
+
+}
+
+.btn {
+    padding: 1rem;
+    text-decoration: uppercase;
+    letter-spacing: .25em;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    max-width: 30%;
+}
+
+.btn-light {
+    color: #000;
+    background-color: #aaa8a8;
+}
+
+.btn-light:disabled {
+    color: #4a4a4a;
+    background: #292929;
+}
+
+.btn-dark {
+    color: #e6e6e6;
+    background: #141414;
+}
+
+.btn-dark:disabled {
+    background: #f2f2f2;
+    color: #c7c7c7;
+}
+
+.avatar-small {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.player-info {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    font-size: 1.3rem;
+    padding: 0.8rem;
+}
+
+.player-info .link {
+    margin-left: 1rem;
+}
+
+.btn-space {
+    margin: 3rem auto;
+}
+
+.error {
+    color: #ff1616;
+    font-size: 2rem;
+    margin: 4rem 0;
+}
+
+.score {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
